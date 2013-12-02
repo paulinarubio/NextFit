@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		404861691814EC4900F18284 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 404861681814EC4900F18284 /* main.c */; };
 		4048616B1814EC4900F18284 /* NextFit.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4048616A1814EC4900F18284 /* NextFit.1 */; };
+		4048618E1814EC5900F18284 /* conio.c in Sources */ = {isa = PBXBuildFile; fileRef = 4048617D1814EC5900F18284 /* conio.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,34 @@
 		404861651814EC4900F18284 /* NextFit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NextFit; sourceTree = BUILT_PRODUCTS_DIR; };
 		404861681814EC4900F18284 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4048616A1814EC4900F18284 /* NextFit.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NextFit.1; sourceTree = "<group>"; };
+		404861721814EC5900F18284 /* aclocal.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		404861731814EC5900F18284 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		404861741814EC5900F18284 /* cgetch.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cgetch.3; sourceTree = "<group>"; };
+		404861751814EC5900F18284 /* cgetche.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cgetche.3; sourceTree = "<group>"; };
+		404861761814EC5900F18284 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		404861771814EC5900F18284 /* clreol.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clreol.3; sourceTree = "<group>"; };
+		404861781814EC5900F18284 /* clrscr.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clrscr.3; sourceTree = "<group>"; };
+		404861791814EC5900F18284 /* config.guess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		4048617A1814EC5900F18284 /* config.sub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		4048617B1814EC5900F18284 /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		4048617C1814EC5900F18284 /* configure.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		4048617D1814EC5900F18284 /* conio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = conio.c; sourceTree = "<group>"; };
+		4048617E1814EC5900F18284 /* conio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conio.h; sourceTree = "<group>"; };
+		4048617F1814EC5900F18284 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		404861801814EC5900F18284 /* gotoxy.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gotoxy.3; sourceTree = "<group>"; };
+		404861811814EC5900F18284 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		404861821814EC5900F18284 /* install-sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		404861831814EC5900F18284 /* ltmain.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		404861841814EC5900F18284 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		404861851814EC5900F18284 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		404861861814EC5900F18284 /* missing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		404861871814EC5900F18284 /* mkinstalldirs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		404861881814EC5900F18284 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		404861891814EC5900F18284 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		4048618A1814EC5900F18284 /* textbackground.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textbackground.3; sourceTree = "<group>"; };
+		4048618B1814EC5900F18284 /* textcolor.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textcolor.3; sourceTree = "<group>"; };
+		4048618C1814EC5900F18284 /* wherex.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wherex.3; sourceTree = "<group>"; };
+		4048618D1814EC5900F18284 /* wherey.3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wherey.3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +89,47 @@
 		404861671814EC4900F18284 /* NextFit */ = {
 			isa = PBXGroup;
 			children = (
+				404861711814EC5900F18284 /* libconio-1.0.0 */,
 				404861681814EC4900F18284 /* main.c */,
 				4048616A1814EC4900F18284 /* NextFit.1 */,
 			);
 			path = NextFit;
+			sourceTree = "<group>";
+		};
+		404861711814EC5900F18284 /* libconio-1.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				404861721814EC5900F18284 /* aclocal.m4 */,
+				404861731814EC5900F18284 /* AUTHORS */,
+				404861741814EC5900F18284 /* cgetch.3 */,
+				404861751814EC5900F18284 /* cgetche.3 */,
+				404861761814EC5900F18284 /* ChangeLog */,
+				404861771814EC5900F18284 /* clreol.3 */,
+				404861781814EC5900F18284 /* clrscr.3 */,
+				404861791814EC5900F18284 /* config.guess */,
+				4048617A1814EC5900F18284 /* config.sub */,
+				4048617B1814EC5900F18284 /* configure */,
+				4048617C1814EC5900F18284 /* configure.in */,
+				4048617D1814EC5900F18284 /* conio.c */,
+				4048617E1814EC5900F18284 /* conio.h */,
+				4048617F1814EC5900F18284 /* COPYING */,
+				404861801814EC5900F18284 /* gotoxy.3 */,
+				404861811814EC5900F18284 /* INSTALL */,
+				404861821814EC5900F18284 /* install-sh */,
+				404861831814EC5900F18284 /* ltmain.sh */,
+				404861841814EC5900F18284 /* Makefile.am */,
+				404861851814EC5900F18284 /* Makefile.in */,
+				404861861814EC5900F18284 /* missing */,
+				404861871814EC5900F18284 /* mkinstalldirs */,
+				404861881814EC5900F18284 /* NEWS */,
+				404861891814EC5900F18284 /* README */,
+				4048618A1814EC5900F18284 /* textbackground.3 */,
+				4048618B1814EC5900F18284 /* textcolor.3 */,
+				4048618C1814EC5900F18284 /* wherex.3 */,
+				4048618D1814EC5900F18284 /* wherey.3 */,
+			);
+			name = "libconio-1.0.0";
+			path = "../../../Downloads/libconio-1.0.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4048618E1814EC5900F18284 /* conio.c in Sources */,
 				404861691814EC4900F18284 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
